@@ -265,18 +265,7 @@ public class MainActivity extends AppCompatActivity {
                     countries.add(0, person);
                     urlapAlaphelyzetbe();
                     break;
-                /*API 21en nem mukodik
-                case "PUT":
-                    Country updatePerson = converter.fromJson(response.getContent(), Country.class);
-                    countries.replaceAll(country1 ->
-                            country1.getId() == updatePerson.getId() ? updatePerson : country1);
-                    urlapAlaphelyzetbe();
-                    break;
-                case "DELETE":
-                    int id = Integer.parseInt(requestParams);
-                    countries.removeIf(person1 -> country1.getId() == id);
-                    break;
-*/
+
             }
         }
     }
